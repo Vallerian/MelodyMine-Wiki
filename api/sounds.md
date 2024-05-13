@@ -45,10 +45,10 @@ To add a new sound to the client, you simply need to follow a similar procedure 
 
 ```typescript
 {
-   name: string, // name must be unique
-   url: string, // sound URL local or stream
-   loop: boolean, // loop for local sounds
-   volume: number // sound volume between 0 / 1
+   name: string,      // Name must be unique.
+   url: string,       // Sound URL local or stream.
+   loop: boolean,     // Loop for local sounds.
+   volume: number     // Sound volume between 0 / 1.
 }
 ```
 
