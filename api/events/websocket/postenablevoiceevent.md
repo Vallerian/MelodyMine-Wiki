@@ -22,11 +22,11 @@ The `PostEnableVoiceEvent` is a custom event in the MelodyMine plugin. This even
 
 ### Event Details
 
-<table><thead><tr><th width="216">Field</th><th width="129">Type</th><th>Description</th></tr></thead><tbody><tr><td>playerName</td><td>String</td><td>The name of the player who enabled their voice chat.</td></tr><tr><td>playerUuid</td><td>String</td><td>The UUID of the player who enabled their voice chat.</td></tr><tr><td>playerServer</td><td>String</td><td>The server of the player who enabled their voice chat.</td></tr><tr><td>targetSocketID</td><td>String</td><td>The socket ID of the player who enabled their voice chat.</td></tr></tbody></table>
+<table><thead><tr><th width="216">Field</th><th width="129">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>playerName</code></td><td><code>String</code></td><td>The name of the player who enabled their voice chat.</td></tr><tr><td><code>playerUuid</code></td><td><code>String</code></td><td>The UUID of the player who enabled their voice chat.</td></tr><tr><td><code>playerServer</code></td><td><code>String</code></td><td>The server of the player who enabled their voice chat.</td></tr><tr><td><code>targetSocketID</code></td><td><code>String</code></td><td>The socket ID of the player who enabled their voice chat.</td></tr></tbody></table>
 
 ### Methods
 
-<table><thead><tr><th width="199">Method</th><th width="173">Return Type</th><th>Description</th></tr></thead><tbody><tr><td>getPlayer()</td><td>MelodyPlayer</td><td>Returns the <code>MelodyPlayer</code> instance of the player who enabled their voice chat.</td></tr><tr><td>getTargetPlayer()</td><td>MelodyPlayer</td><td>Returns the <code>MelodyPlayer</code> instance of the player who is the target of the voice chat.</td></tr></tbody></table>
+<table><thead><tr><th width="228">Method</th><th width="184">Return Type</th><th>Description</th></tr></thead><tbody><tr><td>getPlayer()</td><td><code>MelodyPlayer</code></td><td>Returns the <code>MelodyPlayer</code> instance of the player who enabled their voice chat.</td></tr><tr><td><code>getTargetPlayer()</code></td><td><code>MelodyPlayer</code></td><td>Returns the <code>MelodyPlayer</code> instance of the player who is the target of the voice chat.</td></tr></tbody></table>
 
 ### Example Usage
 

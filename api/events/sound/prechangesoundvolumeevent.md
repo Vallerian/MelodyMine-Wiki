@@ -22,7 +22,7 @@ This event is cancellable, meaning you can prevent the volume change from happen
 
 ### Event Details
 
-<table><thead><tr><th width="183">Property</th><th width="142">Type</th><th>Description</th></tr></thead><tbody><tr><td>soundName</td><td>String</td><td>The name of the sound that is about to have its volume changed.</td></tr><tr><td>sendToAll</td><td>Boolean</td><td>Whether the volume change should be sent to all players.</td></tr><tr><td>socketID</td><td>String</td><td>The socket ID of the player who initiated the volume change.</td></tr><tr><td>volume</td><td>Double</td><td>The new volume level.</td></tr></tbody></table>
+<table><thead><tr><th width="183">Property</th><th width="142">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td><code>String</code></td><td>The name of the sound that is about to have its volume changed.</td></tr><tr><td><code>sendToAll</code></td><td><code>Boolean</code></td><td>Whether the volume change should be sent to all players.</td></tr><tr><td><code>socketID</code></td><td><code>String</code></td><td>The socket ID of the player who initiated the volume change.</td></tr><tr><td><code>volume</code></td><td><code>Double</code></td><td>The new volume level.</td></tr></tbody></table>
 
 ### Example
 

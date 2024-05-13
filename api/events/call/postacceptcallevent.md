@@ -20,7 +20,7 @@ The `PostAcceptCallEvent` is a custom event in the Bukkit API that is triggered 
 
 ### Event Details
 
-<table><thead><tr><th width="181">Property</th><th width="157">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who accepted the call request.</td></tr><tr><td>targetPlayer</td><td>MelodyPlayer</td><td>The player who initiated the call request.</td></tr></tbody></table>
+<table><thead><tr><th width="181">Property</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who accepted the call request.</td></tr><tr><td><code>targetPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who initiated the call request.</td></tr></tbody></table>
 
 ### Example Usage
 

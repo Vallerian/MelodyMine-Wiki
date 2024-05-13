@@ -20,7 +20,7 @@ The `PreStartCallEvent` is a custom event in the MelodyMine plugin. It is trigge
 
 ### Event Details
 
-<table><thead><tr><th width="202">Property</th><th width="163">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who is initiating the call.</td></tr><tr><td>targetPlayer</td><td>MelodyPlayer</td><td>The player who is the target of the call.</td></tr><tr><td>canSendMessage</td><td>boolean</td><td>A flag indicating whether a message can be sent to the players involved in the call.</td></tr><tr><td>isCancelled</td><td>boolean</td><td>A flag indicating whether the event is cancelled. If true, the call will not be initiated.</td></tr></tbody></table>
+<table><thead><tr><th width="202">Property</th><th width="163">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who is initiating the call.</td></tr><tr><td><code>targetPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who is the target of the call.</td></tr><tr><td><code>canSendMessage</code></td><td><code>boolean</code></td><td>A flag indicating whether a message can be sent to the players involved in the call.</td></tr><tr><td><code>isCancelled</code></td><td><code>boolean</code></td><td>A flag indicating whether the event is cancelled. If true, the call will not be initiated.</td></tr></tbody></table>
 
 ### Example Usage
 

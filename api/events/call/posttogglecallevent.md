@@ -20,7 +20,7 @@ The `PostToggleCallEvent` is a custom event in the MelodyMine plugin. This event
 
 ### Event Details
 
-<table><thead><tr><th width="174">Attribute</th><th width="182">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who toggled their call status.</td></tr></tbody></table>
+<table><thead><tr><th width="174">Attribute</th><th width="182">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who toggled their call status.</td></tr></tbody></table>
 
 ### Example Usage
 

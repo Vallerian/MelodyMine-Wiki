@@ -20,7 +20,7 @@ The `PostDenyCallEvent` is a custom event in the Bukkit API that is called after
 
 ### Event Details
 
-<table><thead><tr><th width="204">Attribute</th><th width="187">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who denied the call.</td></tr><tr><td>targetPlayer</td><td>MelodyPlayer</td><td>The player who was denied the call.</td></tr><tr><td>canSendMessage</td><td>boolean</td><td>A flag indicating whether a message can be sent in response to the event.</td></tr></tbody></table>
+<table><thead><tr><th width="204">Attribute</th><th width="187">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who denied the call.</td></tr><tr><td><code>targetPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who was denied the call.</td></tr><tr><td><code>canSendMessage</code></td><td><code>boolean</code></td><td>A flag indicating whether a message can be sent in response to the event.</td></tr></tbody></table>
 
 ### Example
 

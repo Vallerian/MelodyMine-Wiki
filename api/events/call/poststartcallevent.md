@@ -20,7 +20,7 @@ The `PostStartCallEvent` is a custom event in the MelodyMine plugin that is call
 
 #### Event Details
 
-<table><thead><tr><th width="165">Field</th><th width="171">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who initiated the call.</td></tr><tr><td>targetPlayer</td><td>MelodyPlayer</td><td>The player who is the target of the call.</td></tr></tbody></table>
+<table><thead><tr><th width="178">Field</th><th width="171">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who initiated the call.</td></tr><tr><td><code>targetPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who is the target of the call.</td></tr></tbody></table>
 
 #### Example Usage
 

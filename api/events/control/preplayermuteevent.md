@@ -20,7 +20,7 @@ The `PrePlayerMuteEvent` is a custom event in the Bukkit API that is called befo
 
 ### Class Structure
 
-<table><thead><tr><th width="190">Method/Variable</th><th width="174">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who is about to be muted.</td></tr><tr><td>isCancelled</td><td>boolean</td><td>Determines whether the event should be cancelled or not.</td></tr></tbody></table>
+<table><thead><tr><th width="190">Method/Variable</th><th width="174">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who is about to be muted.</td></tr><tr><td><code>isCancelled</code></td><td><code>boolean</code></td><td>Determines whether the event should be cancelled or not.</td></tr></tbody></table>
 
 ### Example
 

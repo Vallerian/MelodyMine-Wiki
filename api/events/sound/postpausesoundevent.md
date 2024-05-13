@@ -22,7 +22,7 @@ The `PostPauseSoundEvent` is a custom event in Bukkit that is triggered after a 
 
 ### Event Details
 
-<table><thead><tr><th width="168">Field</th><th width="135">Type</th><th>Description</th></tr></thead><tbody><tr><td>soundName</td><td>String</td><td>The name of the sound that was paused.</td></tr><tr><td>sendToAll</td><td>Boolean</td><td>Indicates whether the pause was sent to all players.</td></tr><tr><td>socketID</td><td>String?</td><td>The socket ID associated with the event. This could be null.</td></tr></tbody></table>
+<table><thead><tr><th width="168">Field</th><th width="135">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td><code>String</code></td><td>The name of the sound that was paused.</td></tr><tr><td><code>sendToAll</code></td><td><code>Boolean</code></td><td>Indicates whether the pause was sent to all players.</td></tr><tr><td><code>socketID</code></td><td><code>String?</code></td><td>The socket ID associated with the event. This could be null.</td></tr></tbody></table>
 
 ### Example Usage
 

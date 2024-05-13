@@ -22,7 +22,7 @@ The `PostPlaySoundEvent` is a custom event in the MelodyMine plugin. This event 
 
 ### Class Attributes
 
-<table><thead><tr><th width="200">Attribute</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td>String</td><td>The name of the sound that was played.</td></tr><tr><td><code>sendToAll</code></td><td>Boolean</td><td>Indicates whether the sound was sent to all players.</td></tr><tr><td><code>socketID</code></td><td>String</td><td>The socket ID of the player who triggered the sound.</td></tr><tr><td><code>volume</code></td><td>Double</td><td>The volume at which the sound was played.</td></tr></tbody></table>
+<table><thead><tr><th width="200">Attribute</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td><code>String</code></td><td>The name of the sound that was played.</td></tr><tr><td><code>sendToAll</code></td><td><code>Boolean</code></td><td>Indicates whether the sound was sent to all players.</td></tr><tr><td><code>socketID</code></td><td><code>String</code></td><td>The socket ID of the player who triggered the sound.</td></tr><tr><td><code>volume</code></td><td><code>Double</code></td><td>The volume at which the sound was played.</td></tr></tbody></table>
 
 ### Listening to the Event
 

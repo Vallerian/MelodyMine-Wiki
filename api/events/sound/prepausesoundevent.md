@@ -20,11 +20,11 @@ The `PrePauseSoundEvent` class is a custom event in the Bukkit API. It is trigge
 
 ### Class Properties
 
-<table><thead><tr><th width="177">Property</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td>String</td><td>The name of the sound that is about to be paused.</td></tr><tr><td><code>sendToAll</code></td><td>Boolean</td><td>Indicates whether the pause event should be sent to all players.</td></tr><tr><td><code>socketID</code></td><td>String?</td><td>The socket ID associated with the event. This could be null.</td></tr></tbody></table>
+<table><thead><tr><th width="177">Property</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td><code>String</code></td><td>The name of the sound that is about to be paused.</td></tr><tr><td><code>sendToAll</code></td><td><code>Boolean</code></td><td>Indicates whether the pause event should be sent to all players.</td></tr><tr><td><code>socketID</code></td><td><code>String?</code></td><td>The socket ID associated with the event. This could be null.</td></tr></tbody></table>
 
 ### Class Methods
 
-<table><thead><tr><th width="199">Method</th><th width="143">Return Type</th><th>Description</th></tr></thead><tbody><tr><td><code>isCancelled</code></td><td>Boolean</td><td>Checks if the event is cancelled.</td></tr><tr><td><code>setCancelled</code></td><td>Void</td><td>Sets the cancellation state of this event. A cancelled event will not be executed in the server, but will still pass to other plugins.</td></tr></tbody></table>
+<table><thead><tr><th width="199">Method</th><th width="143">Return Type</th><th>Description</th></tr></thead><tbody><tr><td><code>isCancelled</code></td><td><code>Boolean</code></td><td>Checks if the event is cancelled.</td></tr><tr><td><code>setCancelled</code></td><td><code>Void</code></td><td>Sets the cancellation state of this event. A cancelled event will not be executed in the server, but will still pass to other plugins.</td></tr></tbody></table>
 
 ### Example Usage
 

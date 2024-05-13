@@ -20,7 +20,7 @@ The `PreStopSoundEvent` is a custom event class in the MelodyMine plugin. This e
 
 ### Class Properties
 
-<table><thead><tr><th width="156">Property</th><th width="115">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td>String</td><td>The name of the sound that is about to be stopped.</td></tr><tr><td><code>sendToAll</code></td><td>Boolean</td><td>Indicates whether the sound is being sent to all players.</td></tr><tr><td><code>socketID</code></td><td>String?</td><td>The socket ID of the player who initiated the stop sound action. This could be null.</td></tr></tbody></table>
+<table><thead><tr><th width="156">Property</th><th width="115">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td><code>String</code></td><td>The name of the sound that is about to be stopped.</td></tr><tr><td><code>sendToAll</code></td><td><code>Boolean</code></td><td>Indicates whether the sound is being sent to all players.</td></tr><tr><td><code>socketID</code></td><td><code>String?</code></td><td>The socket ID of the player who initiated the stop sound action. This could be null.</td></tr></tbody></table>
 
 ### Example Usage
 

@@ -20,7 +20,7 @@ The `PreSendSoundSettingsEvent` is a custom event in the Bukkit API. It is trigg
 
 #### Class Structure
 
-<table><thead><tr><th width="190">Method/Variable</th><th width="164">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>socketID</code></td><td>String</td><td>The ID of the socket to which the sound settings are being sent.</td></tr><tr><td><code>isCancelled</code></td><td>Boolean</td><td>A flag indicating whether the event is cancelled. If true, the sound settings will not be sent.</td></tr></tbody></table>
+<table><thead><tr><th width="190">Method/Variable</th><th width="164">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>socketID</code></td><td><code>String</code></td><td>The ID of the socket to which the sound settings are being sent.</td></tr><tr><td><code>isCancelled</code></td><td><code>Boolean</code></td><td>A flag indicating whether the event is cancelled. If true, the sound settings will not be sent.</td></tr></tbody></table>
 
 #### Example Usage
 

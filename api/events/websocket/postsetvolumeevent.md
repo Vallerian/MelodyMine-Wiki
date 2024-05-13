@@ -20,11 +20,11 @@ The `PostSetVolumeEvent` is a custom event in the MelodyMine plugin. This event 
 
 ### Event Details
 
-<table><thead><tr><th width="215">Field</th><th width="153">Type</th><th>Description</th></tr></thead><tbody><tr><td>playerUuid</td><td>String</td><td>The UUID of the player whose volume was set.</td></tr><tr><td>targetSocketID</td><td>String</td><td>The socket ID of the target player who set the volume.</td></tr></tbody></table>
+<table><thead><tr><th width="215">Field</th><th width="153">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>playerUuid</code></td><td><code>String</code></td><td>The UUID of the player whose volume was set.</td></tr><tr><td><code>targetSocketID</code></td><td><code>String</code></td><td>The socket ID of the target player who set the volume.</td></tr></tbody></table>
 
 ### Methods
 
-<table><thead><tr><th width="206">Method</th><th width="159">Return Type</th><th>Description</th></tr></thead><tbody><tr><td>getPlayer()</td><td>MelodyPlayer</td><td>Returns the <code>MelodyPlayer</code> instance of the player whose volume was set.</td></tr><tr><td>getTargetPlayer()</td><td>MelodyPlayer</td><td>Returns the <code>MelodyPlayer</code> instance of the target player who set the volume.</td></tr></tbody></table>
+<table><thead><tr><th width="222">Method</th><th width="159">Return Type</th><th>Description</th></tr></thead><tbody><tr><td><code>getPlayer()</code></td><td><code>MelodyPlayer</code></td><td>Returns the <code>MelodyPlayer</code> instance of the player whose volume was set.</td></tr><tr><td><code>getTargetPlayer()</code></td><td><code>MelodyPlayer</code></td><td>Returns the <code>MelodyPlayer</code> instance of the target player who set the volume.</td></tr></tbody></table>
 
 ### Example Usage
 

@@ -20,7 +20,7 @@ The `PostPlayerSetSelfMuteEvent` is a custom event in the MelodyMine plugin. Thi
 
 ### Event Details
 
-<table><thead><tr><th width="197">Attribute</th><th width="205">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player whose self-mute status has been changed.</td></tr><tr><td>value</td><td>boolean</td><td>The new self-mute status of the player.</td></tr></tbody></table>
+<table><thead><tr><th width="197">Attribute</th><th width="205">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player whose self-mute status has been changed.</td></tr><tr><td><code>value</code></td><td><code>boolean</code></td><td>The new self-mute status of the player.</td></tr></tbody></table>
 
 ### Example Usage
 

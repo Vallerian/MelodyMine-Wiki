@@ -20,7 +20,7 @@ The `PostEndCallEvent` is a custom event in the MelodyMine plugin that is trigge
 
 ### Event Details
 
-<table><thead><tr><th width="188">Field</th><th width="162">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player who was in the call.</td></tr><tr><td>targetPlayer</td><td>MelodyPlayer</td><td>The other player who was in the call.</td></tr></tbody></table>
+<table><thead><tr><th width="188">Field</th><th width="162">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player who was in the call.</td></tr><tr><td><code>targetPlayer</code></td><td><code>MelodyPlayer</code></td><td>The other player who was in the call.</td></tr></tbody></table>
 
 ### Event Usage
 

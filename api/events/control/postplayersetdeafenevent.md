@@ -20,7 +20,7 @@ The `PostPlayerSetDeafenEvent` is a custom event in the MelodyMine plugin. This 
 
 ### Event Details
 
-<table><thead><tr><th width="167">Field</th><th width="193">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player whose deafen status has been set.</td></tr><tr><td>value</td><td>boolean</td><td>The new deafen status of the player. <code>false</code>if the player is now deafened, <code>true</code>otherwise.</td></tr></tbody></table>
+<table><thead><tr><th width="186">Field</th><th width="193">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player whose deafen status has been set.</td></tr><tr><td><code>value</code></td><td><code>boolean</code></td><td>The new deafen status of the player. <code>false</code>if the player is now deafened, <code>true</code>otherwise.</td></tr></tbody></table>
 
 ### Example Usage
 

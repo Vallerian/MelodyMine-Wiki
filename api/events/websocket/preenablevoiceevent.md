@@ -20,11 +20,11 @@ The `PreEnableVoiceEvent` is a custom event in the Bukkit API. It is triggered b
 
 ### Event Details
 
-<table><thead><tr><th width="182">Field</th><th width="157">Type</th><th>Description</th></tr></thead><tbody><tr><td>playerName</td><td>String</td><td>The name of the player who is about to enable their voice.</td></tr><tr><td>playerUuid</td><td>String</td><td>The UUID of the player who is about to enable their voice.</td></tr><tr><td>playerServer</td><td>String</td><td>The server that the player is currently on.</td></tr><tr><td>targetSocketID</td><td>String</td><td>The socket ID of the target player.</td></tr></tbody></table>
+<table><thead><tr><th width="193">Field</th><th width="157">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>playerName</code></td><td><code>String</code></td><td>The name of the player who is about to enable their voice.</td></tr><tr><td><code>playerUuid</code></td><td><code>String</code></td><td>The UUID of the player who is about to enable their voice.</td></tr><tr><td><code>playerServer</code></td><td><code>String</code></td><td>The server that the player is currently on.</td></tr><tr><td><code>targetSocketID</code></td><td><code>String</code></td><td>The socket ID of the target player.</td></tr></tbody></table>
 
 ### Methods
 
-<table><thead><tr><th width="206">Method</th><th width="185">Return Type</th><th>Description</th></tr></thead><tbody><tr><td>getPlayer()</td><td>MelodyPlayer</td><td>Returns the <code>MelodyPlayer</code> instance of the player who is about to enable their voice.</td></tr><tr><td>getTargetPlayer()</td><td>MelodyPlayer</td><td>Returns the <code>MelodyPlayer</code> instance of the target player.</td></tr></tbody></table>
+<table><thead><tr><th width="223">Method</th><th width="185">Return Type</th><th>Description</th></tr></thead><tbody><tr><td><code>getPlayer()</code></td><td><code>MelodyPlayer</code></td><td>Returns the <code>MelodyPlayer</code> instance of the player who is about to enable their voice.</td></tr><tr><td><code>getTargetPlayer()</code></td><td><code>MelodyPlayer</code></td><td>Returns the <code>MelodyPlayer</code> instance of the target player.</td></tr></tbody></table>
 
 ### Example Usage
 

@@ -20,7 +20,7 @@ The `PrePlaySoundEvent` is a custom event in the MelodyMine plugin. This event i
 
 ### Event Details
 
-<table><thead><tr><th width="191">Property</th><th width="155">Type</th><th>Description</th></tr></thead><tbody><tr><td>soundName</td><td>String</td><td>The name of the sound that is about to be played.</td></tr><tr><td>sendToAll</td><td>Boolean</td><td>Indicates whether the sound is sent to all players.</td></tr><tr><td>socketID</td><td>String</td><td>The socket ID of the player who will receive the sound.</td></tr><tr><td>volume</td><td>Double</td><td>The volume of the sound.</td></tr></tbody></table>
+<table><thead><tr><th width="191">Property</th><th width="155">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>soundName</code></td><td><code>String</code></td><td>The name of the sound that is about to be played.</td></tr><tr><td><code>sendToAll</code></td><td><code>Boolean</code></td><td>Indicates whether the sound is sent to all players.</td></tr><tr><td><code>socketID</code></td><td><code>String</code></td><td>The socket ID of the player who will receive the sound.</td></tr><tr><td><code>volume</code></td><td><code>Double</code></td><td>The volume of the sound.</td></tr></tbody></table>
 
 ### Example Usage
 

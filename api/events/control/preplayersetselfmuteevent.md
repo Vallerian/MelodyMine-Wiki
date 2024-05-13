@@ -20,7 +20,7 @@ The `PrePlayerSetSelfMuteEvent` is a custom event in the MelodyMine plugin. It i
 
 ### Event Details
 
-<table><thead><tr><th width="186">Field</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td>melodyPlayer</td><td>MelodyPlayer</td><td>The player whose self-mute status is about to change.</td></tr><tr><td>value</td><td>Boolean</td><td>The new mute status that will be set for the player.</td></tr></tbody></table>
+<table><thead><tr><th width="186">Field</th><th width="160">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player whose self-mute status is about to change.</td></tr><tr><td><code>value</code></td><td><code>Boolean</code></td><td>The new mute status that will be set for the player.</td></tr></tbody></table>
 
 {% hint style="warning" %}
 This event is cancellable. If the event is cancelled, the player's self-mute status will not change.

@@ -28,7 +28,7 @@ public void mute(String uuid)
 
 ### Parameters
 
-<table><thead><tr><th width="118">Parameter</th><th width="168">Type</th><th>Description</th></tr></thead><tbody><tr><td>uuid</td><td>String</td><td>The UUID of the player to be muted.</td></tr></tbody></table>
+<table><thead><tr><th width="118">Parameter</th><th width="168">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>uuid</code></td><td><code>String</code></td><td>The UUID of the player to be muted.</td></tr></tbody></table>
 
 ### Usage
 
