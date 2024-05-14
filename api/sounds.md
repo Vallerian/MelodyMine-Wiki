@@ -79,8 +79,11 @@ sudo sh start.sh
 
 You can create and utilize events and sound managers within MelodyMine to handle various functionalities related to sounds.&#x20;
 
-By navigating to the Sounds Events and Sounds Manager pages in the MelodyMine plugin, you can explore examples of how sound is used within the plugin.\
+By navigating to the Sounds Events and Sounds Manager pages in the MelodyMine plugin, you can explore examples of how sound is used within the plugin.
 
+{% hint style="info" %}
+One of the plugins built using the MelodyMine Sound API is [MelodyRadio](usage.md#melodyradio).
+{% endhint %}
 
 Events
 
