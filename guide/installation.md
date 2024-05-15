@@ -97,6 +97,13 @@ sudo sh start.sh
 During the MelodyMine installation, if prompted, answer 'yes' or 'no'. Always choose 'yes' to proceed. If any errors occur during the installation, such as port 80 being busy, pay attention and resolve them adn then run sudo `sh start.sh`.
 {% endhint %}
 
+{% hint style="success" %}
+After installing MelodyMine, ensure that both the client and server are fully installed and operational.\
+\
+Server address: `https://[DOMAIN]:[SERVER_PORT]`\
+Client address: `https://[DOMAIN]:[CLIENT_PORT]`
+{% endhint %}
+
 ### Step 7: Download the MelodyMine plugin
 
 Visit the following link to download the latest version of MelodyMine: [https://github.com/Vallerian/MelodyMine/releases](https://github.com/Vallerian/MelodyMine/releases)
