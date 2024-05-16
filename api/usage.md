@@ -84,9 +84,9 @@ One of the plugins built with the MelodyMine API is MelodyPhone, which is entire
 &#x20;If you have any questions regarding this plugin or any inquiries related to it, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.
 {% endhint %}
 
-{% embed url="https://cdn.discordapp.com/attachments/1169951231976939643/1174391871385120830/2023-11-15_20-07-19.mp4?ex=66439729&hm=2071462783835d2805114e489e1381e207c29d720c6d1bfff3f0fa9191be845a&is=664245a9" %}
-
 ***
+
+{% embed url="https://download.taher7.ir/MelodyPhone.mp4" %}
 
 ## MelodyRadio
 
@@ -97,7 +97,7 @@ Another plugin developed with the MelodyMine API is MelodyRadio, which extensive
 Additionally, it leverages the [World Guard](https://enginehub.org/worldguard) API, allowing players to broadcast any sound or music stream within or outside a specified region.
 
 {% hint style="info" %}
-If you have any inquiries regarding this plugin or need assistance, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.
+If you have any inquiries regarding this plugin or need assistance, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.[https://download.taher7.ir/MelodyPhone.mp4](https://download.taher7.ir/MelodyPhone.mp4)
 {% endhint %}
 
-{% embed url="https://cdn.discordapp.com/attachments/983568272622506014/1226200598936944802/MelodyRadio.mp4?ex=66438b4c&hm=32c82391ac0db820fc74f084925aa2af18fb53d7cd6fcc091f36a44fc92ad9d6&is=664239cc" %}
+{% embed url="https://download.taher7.ir/MelodyRadio.mp4" %}
