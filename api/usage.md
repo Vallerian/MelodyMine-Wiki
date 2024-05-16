@@ -84,9 +84,9 @@ One of the plugins built with the MelodyMine API is MelodyPhone, which is entire
 &#x20;If you have any questions regarding this plugin or any inquiries related to it, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.
 {% endhint %}
 
-***
+{% embed url="https://showcase.sayandev.org/MelodyPhone.mp4" %}
 
-{% embed url="https://download.taher7.ir/MelodyPhone.mp4" %}
+***
 
 ## MelodyRadio
 
@@ -100,4 +100,4 @@ Additionally, it leverages the [World Guard](https://enginehub.org/worldguard) A
 If you have any inquiries regarding this plugin or need assistance, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.[https://download.taher7.ir/MelodyPhone.mp4](https://download.taher7.ir/MelodyPhone.mp4)
 {% endhint %}
 
-{% embed url="https://download.taher7.ir/MelodyRadio.mp4" %}
+{% embed url="https://showcase.sayandev.org/MelodyRadio.mp4" %}
