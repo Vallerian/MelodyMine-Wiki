@@ -4,6 +4,12 @@ description: MelodyMine Website and Plugin Installation
 
 # 💡 Installation
 
+## Installation Video
+
+{% embed url="https://www.youtube.com/watch?v=wERECLih8Oc" %}
+
+## Installation Steps
+
 {% hint style="warning" %}
 Before starting the installation, you need two things:
 
