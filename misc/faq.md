@@ -39,3 +39,28 @@ MelodyMine requires using port 80 to obtain an SSL certificate for your domain. 
 After that, if you restart MelodyMine and the SSL certificate files for your domain are located in the `web/docker/certbot/live` path, port 80 will no longer be occupied by MelodyMine.&#x20;
 
 However, if the SSL files do not exist, it means there is an issue with your domain, and you need to resolve the SSL certificate acquisition problem before proceeding.
+
+***
+
+### How can I run the MelodyMine Client without a port and only with a domain?
+
+To do this, you need to leave the `CLIENT_PORT` in the w`.env` file empty.
+
+&#x20;and go to the `docker-compose.yml` file. In the `nginx` configuration section, change the port configuration (`ports`) \
+from:
+
+```yaml
+ports:
+  - '${CLIENT_PORT}:3000'
+  - '${SERVER_PORT}:4000'
+```
+
+to:
+
+```yaml
+ports:
+  - '443:3000'
+  - '${SERVER_PORT}:4000'
+```
+
+Also, in the plugin configuration file, set `client_port` to 443.
