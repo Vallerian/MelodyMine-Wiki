@@ -30,3 +30,12 @@ After completing this task, you can submit a pull request on [MelodyMine's GitHu
 
 &#x20;Alternatively, you can join the MelodyMine [Discord](https://discord.gg/CBua8YectX) server and send the language file directly to the developers for inclusion.
 
+***
+
+### How can I change or stop using port 80 for MelodyMine?
+
+MelodyMine requires using port 80 to obtain an SSL certificate for your domain. This process only happens once.&#x20;
+
+After that, if you restart MelodyMine and the SSL certificate files for your domain are located in the `web/docker/certbot/live` path, port 80 will no longer be occupied by MelodyMine.&#x20;
+
+However, if the SSL files do not exist, it means there is an issue with your domain, and you need to resolve the SSL certificate acquisition problem before proceeding.
