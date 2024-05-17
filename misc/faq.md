@@ -44,10 +44,12 @@ However, if the SSL files do not exist, it means there is an issue with your dom
 
 ### How can I run the MelodyMine Client without a port and only with a domain?
 
-To do this, you need to leave the `CLIENT_PORT` in the w`.env` file empty.
+To do this, you need to leave the `CLIENT_PORT` in the `.env` file empty.
 
-&#x20;and go to the `docker-compose.yml` file. In the `nginx` configuration section, change the port configuration (`ports`) \
-from:
+<pre class="language-yaml"><code class="lang-yaml"><strong>CLIENT_PORT=
+</strong></code></pre>
+
+&#x20;and go to the `docker-compose.yml` file. In the `nginx` configuration section, change the port configuration from:
 
 ```yaml
 ports:
@@ -63,4 +65,8 @@ ports:
   - '${SERVER_PORT}:4000'
 ```
 
-Also, in the plugin configuration file, set `client_port` to 443.
+Also, in the plugin configuration `settings.yml` file, set `client_port` to `443`.
+
+```yaml
+client_port: 443
+```
