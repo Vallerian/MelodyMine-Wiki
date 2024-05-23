@@ -70,8 +70,8 @@ Currently, many servers and players are using MelodyMine, which indicates their 
 
 <figure><img src="https://bstats.org/signatures/bukkit/MelodyMine.svg" alt=""><figcaption></figcaption></figure>
 
-{% content-ref url="api/usage.md" %}
-[usage.md](api/usage.md)
+{% content-ref url="api/plugin-usage.md" %}
+[plugin-usage.md](api/plugin-usage.md)
 {% endcontent-ref %}
 
 {% content-ref url="essentials/placeholders.md" %}

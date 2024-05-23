@@ -14,7 +14,8 @@
 
 ## API
 
-* [⚙️ Usage](api/usage.md)
+* [⚙️ Plugin Usage](api/plugin-usage.md)
+* [⚙️ Web Usage](api/web-usage.md)
 * [🔷 Events](api/events/README.md)
   * [🔹 Call](api/events/call/README.md)
     * [PreStartCallEvent](api/events/call/prestartcallevent.md)
