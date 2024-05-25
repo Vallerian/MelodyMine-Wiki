@@ -38,13 +38,13 @@ WEBSOCKET_WEB_AUTH_KEY=random
 
 ***
 
-### Step 3:  **Run WebSocket Server**
+### Step 3:  Install Dependency and **Run WebSocket Server**
 
 Open a terminal in the `web/server` directory and run the following command.
 
-```bash
-npm run start
-```
+<pre class="language-bash"><code class="lang-bash"><strong>npm i
+</strong><strong>npm run start
+</strong></code></pre>
 
 {% hint style="info" %}
 Note: Open your browser and ensure that the address `localhost:4000` loads completely.
@@ -72,11 +72,12 @@ TURN_PASSWORD=melodymine
 
 ***
 
-### **Step 5:  Run Client**
+### **Step 5: Install** Dependency and **Run Client**
 
 Open a terminal in the `web/client` directory and run the following command.
 
 ```bash
+npm i
 npm run dev
 ```
 
