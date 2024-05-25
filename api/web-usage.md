@@ -38,12 +38,13 @@ WEBSOCKET_WEB_AUTH_KEY=random
 
 ***
 
-### Step 3:  Install Dependency and **Run WebSocket Server**
+### Step 3:  Install Dependency, Prisma and **Run WebSocket Server**
 
 Open a terminal in the `web/server` directory and run the following command.
 
 <pre class="language-bash"><code class="lang-bash"><strong>npm i
-</strong><strong>npm run start
+</strong>npx prisma generate
+<strong>npm run start
 </strong></code></pre>
 
 {% hint style="info" %}
@@ -72,12 +73,13 @@ TURN_PASSWORD=melodymine
 
 ***
 
-### **Step 5: Install** Dependency and **Run Client**
+### **Step 5: Install** Dependency, Prisma and **Run Client**
 
 Open a terminal in the `web/client` directory and run the following command.
 
 ```bash
 npm i
+npx prisma generate
 npm run dev
 ```
 
