@@ -83,6 +83,21 @@ npx prisma generate
 npm run dev
 ```
 
+{% hint style="warning" %}
+If you don't want to use Next.js in developer mode, instead of running
+
+```bash
+npm run dev
+```
+
+use
+
+```bash
+npm run build
+npm start
+```
+{% endhint %}
+
 {% hint style="info" %}
 Note: Open your browser and ensure that the address `localhost:3000` loads completely.
 {% endhint %}
