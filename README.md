@@ -47,7 +47,7 @@ the command `/melodymine start qrcode`, which will generate a QR code. After sca
 {% hint style="success" %}
 **MelodyMine Demo**\
 \
-Website **:** [MelodyMine.TAHER7.iR](https://melodymine.taher7.ir:3003/)
+Website **:** [MelodyMine.TAHER7.iR](https://melodymine.taher7.ir/)
 
 Server  IP**:** `Play.TAHER7.IR`
 {% endhint %}
