@@ -36,6 +36,12 @@ WEBSOCKET_PLUGIN_AUTH_KEY=random
 WEBSOCKET_WEB_AUTH_KEY=random
 ```
 
+{% hint style="warning" %}
+Please note that the `WEBSOCKET_PLUGIN_AUTH_KEY` must match the `plugin_key` in the plugin's `settings.yml` file.\
+\
+and also, the `WEBSOCKET_WEB_AUTH_KEY` must match the `WEBSOCKET_KEY` in the client's `.env` file.
+{% endhint %}
+
 ***
 
 ### Step 3:  Install Dependency, Prisma and **Run WebSocket Server**
@@ -57,10 +63,10 @@ Note: Open your browser and ensure that the address `localhost:4000` loads compl
 
 Navigate to the `web/client` directory and create a file named `.env` with the following values.
 
-```
+```markdown
 DATABASE_URL=mysql://root:@localhost:3306/melody
 
-NEXTAUTH_SECRET=random
+NEXTAUTH_SECRET=random 
 NEXTAUTH_URL=http://localhost:3000
 
 WEBSOCKET_KEY=random
@@ -70,6 +76,10 @@ TURN_URL=turn:melodymine.taher7.ir:3477
 TURN_USERNAME=melodymine
 TURN_PASSWORD=melodymine
 ```
+
+{% hint style="warning" %}
+Please note that the `WEBSOCKET_KEY` in the server's `.env` file must match the `WEBSOCKET_WEB_AUTH_KEY`.
+{% endhint %}
 
 ***
 
