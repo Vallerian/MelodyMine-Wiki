@@ -1,4 +1,4 @@
-# ⚙️ Usage
+# ⚙️ Plugin Usage
 
 ## MelodyMine API Usage
 
@@ -90,7 +90,7 @@ One of the plugins built with the MelodyMine API is MelodyPhone, which is entire
 
 ## MelodyRadio
 
-Another plugin developed with the MelodyMine API is MelodyRadio, which extensively utilizes the Sound API of MelodyMine.
+Another plugin developed with the MelodyMine API is MelodyRadio, which extensively utilizes the [Sound API](melodymanager/sound/) of MelodyMine.
 
 &#x20;This plugin serves as an addon for the [VehiclesPlus](https://www.spigotmc.org/resources/vehiclesplus-1-12-1-20-4.70523/) plugin, enabling the addition of radio functionality to vehicles within that plugin.&#x20;
 
