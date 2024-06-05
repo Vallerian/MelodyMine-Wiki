@@ -4,7 +4,7 @@ description: Welcome to the MelodyMine Documentation
 
 # 🎵 Introduction
 
-<figure><img src=".gitbook/assets/melody-logo (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.ibb.co/XYMxJJr/Melody-Mine-Title.png" alt=""><figcaption></figcaption></figure>
 
 ## What is MelodyMine ?
 
