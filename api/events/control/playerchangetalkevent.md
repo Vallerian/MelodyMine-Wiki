@@ -20,7 +20,7 @@ The `PlayerChangeTalkEvent` is a custom event in the MelodyMine plugin. This eve
 
 ### Event Details
 
-<table><thead><tr><th width="141">Field</th><th width="136">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>uuid</code></td><td><code>String</code></td><td>The UUID of the player whose talk status has changed.</td></tr><tr><td><code>server</code></td><td><code>String</code></td><td>The server that the player is currently on.</td></tr><tr><td><code>isTalk</code></td><td><code>Boolean</code></td><td>The current talk status of the player. <code>true</code> if the player is talking, <code>false</code> otherwise.</td></tr></tbody></table>
+<table><thead><tr><th width="197">Field</th><th width="189">Type</th><th>Description</th></tr></thead><tbody><tr><td><code>melodyPlayer</code></td><td><code>MelodyPlayer</code></td><td>The player whose talk status has changed.</td></tr><tr><td><code>melodyTalk</code></td><td><code>MelodyTalk</code></td><td>The Talk Data that the player is changed.</td></tr></tbody></table>
 
 ### Example Usage
 
