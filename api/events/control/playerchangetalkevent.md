@@ -42,11 +42,11 @@ public class ExampleListener implements Listener {
 
     @EventHandler
     public void onPlayerChangeTalk(PlayerChangeTalkEvent event) {
-        String uuid = event.getUuid();
-        String server = event.getServer();
-        boolean isTalk = event.getIsTalk();
-
-        plugin.getLogger().info("Player with UUID: " + uuid + " on server: " + server + " has changed their talk status to: " + (isTalk ? "talking" : "not talking"));
+         MelodyPlayer player = event.getMelodyPlayer();
+         String server = event.getMelodyTalk().getServer();
+         boolean isTalk = event.getMelodyTalk().getIsTalk();
+           
+         plugin.getLogger().info("Player with UUID: " + player.uuid + " on server: " + server + " has changed their talk status to: " + (isTalk ? "talking" : "not talking"));
     }
 }
 ```
