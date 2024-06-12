@@ -43,9 +43,10 @@ public class ExamplePlugin {
 
     public void adjustPlayerVolume(Player player, Player target) {
         String playerUuid = player.getUniqueId().toString();
-        String targetSocketID = target.getUniqueId().toString(); // Assuming the target's UUID is used as the socket ID
+        String targetSocketID = "exampleSocketID"; // Replace with actual socket ID
         Location playerLocation = player.getLocation();
         Location targetLocation = target.getLocation();
+        
 
         MelodyManager.INSTANCE.setVolume(playerUuid, targetSocketID, playerLocation, targetLocation);
 
