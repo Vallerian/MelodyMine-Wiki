@@ -97,7 +97,7 @@ Another plugin developed with the MelodyMine API is MelodyRadio, which extensive
 Additionally, it leverages the [World Guard](https://enginehub.org/worldguard) API, allowing players to broadcast any sound or music stream within or outside a specified region.
 
 {% hint style="info" %}
-If you have any inquiries regarding this plugin or need assistance, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.[https://download.taher7.ir/MelodyPhone.mp4](https://download.taher7.ir/MelodyPhone.mp4)
+If you have any inquiries regarding this plugin or need assistance, feel free to join the [MelodyMine Discord server](https://discord.gg/CBua8YectX) and ask.
 {% endhint %}
 
 {% embed url="https://showcase.sayandev.org/MelodyRadio.mp4" %}
